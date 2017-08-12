@@ -35,4 +35,5 @@ Every command is pretty straightforward: command(zone) or command(zone, value)
 # Controller info
 
 This interface for the MiLight controller is built to communicate with the controller as quickly 
-as possible to allow for the creation of light shows and other entertaining effects. 
+as possible to allow for the creation of light shows and other entertaining effects. Thus it is slightly lacking in security 
+and safety concenring data sent and received by the server.
