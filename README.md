@@ -14,17 +14,22 @@ indicating the zone of the bulb set in the app. 0 for all zones.
 `eLED.turnOn(1);`
 
 Brightness can be set 0 to 100.
+
 `eLED.setBrightness(3, 50); `
 
 Colors are adjusted from 0 to 255 with MiLight's color 
 scale. 0 is violet.
+
 `eLED.setColor(2, 125);`
 
 Every command is pretty straightforward: command(zone) or command(zone, value)
 
 `eLED.whiteMode(4);`
+
 `eLED.turnOff(0);`
+
 `eLED.setMode(2, 3);`
+
 `eLED.nightMode(3);`
 
 # Controller info
